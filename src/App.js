@@ -9,7 +9,7 @@ import Dashboard from './components/Dashboard';
 import authProvider from './providers/authProvider';
 // import dataProvider from './providers/dataProvider';
 
-const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
+const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 const App = () => (
   <Admin dashboard={Dashboard} authProvider={authProvider} dataProvider={dataProvider} >
